@@ -26,3 +26,6 @@ data_raw <- data_raw%>%
 
 #Remove uncessary columns like QAQC, Processor, ID_date and Notes
 data_raw <- data_raw[, -c(19:22)]
+
+# Save cleaned data
+write_csv(data_raw, "bugs_clean")
