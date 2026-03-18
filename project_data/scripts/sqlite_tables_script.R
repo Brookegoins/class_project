@@ -1,10 +1,9 @@
+#Assignment 5 sqlite tables 
+
 library(readr)
 library(DBI)
 library(RSQLite)
 library(tidyverse)
-
-##### NRES 701B
-##### Invertebrate Relational Database (single data file)
 
 #Load cleaned data
 data <- read_csv("bug_clean")
